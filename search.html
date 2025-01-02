@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="search.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <title>Details</title>
+</head>
+<body>
+      <div class="container">
+          <h3>Enter the details below</h3>
+        <!--  Disease name  -->
+         <div class="details">
+          <div class="form-group">
+            <label for="name">Enter disease:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter disease name">
+        </div>
+
+         <!-- Age -->
+          <div class="form-group">
+            <label for="name">Enter Age:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter Age">
+        </div>
+
+
+         <!-- Gender -->
+         <div class="form-group">
+          <label for="gender">Gender:</label>
+          <select id="gender" name="gender" required>
+              <option value="">Select Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+          </select>
+          </div>
+
+          <!-- Blood Pressure -->
+          <div class="form-group">
+            <label for="bp">Blood Pressure Range:</label>
+            <select name="bp" id="bp">
+              <option value="">Choose Range</option>
+              <option value="Low">Low(below 90/60)</option>
+              <option value="Normal">Normal(120/80)</option>
+              <option value="High">High(above 140/90)</option>
+            </select>
+          </div>
+
+          <!-- Cholesterol-->
+          <div class="form-group">
+            <label for="chl">Cholesterol Range:</label>
+            <select name="chl" id="chl">
+              <option value="">Choose Range</option>
+              <option value="Low">Low(below 120 mg/dL)</option>
+              <option value="Normal">Normal(below 2000 mg/dL)</option>
+              <option value="High">High(above 240 mg/dL)</option>
+            </select>
+          </div>
+      </div>
+      <a href="" color='#5279e6' target= "_self">Proceed &nbsp;<i class='fas fa-arrow-circle-right' style='font-size:28px'></i></a>
+      </div>
+      
+</body>
+</html>

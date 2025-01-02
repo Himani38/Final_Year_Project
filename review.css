@@ -1,0 +1,119 @@
+.josefin-sans-font {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+ 
+ 
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .container {
+    min-width: 500px;
+    margin: 40px auto;
+    padding: 45px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+    color: #68338b;
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    font-weight: bold;
+    font-size: 20px;
+    color: #111;
+    font-family: "Poppins", sans-serif;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    resize: vertical;
+}
+
+input[type="text"]:focus, textarea:focus {
+    border-color: #68338b;
+    outline: none;
+}
+
+textarea {
+    height: 80px;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+}
+
+.rating input {
+    margin: 0 5px;
+}
+
+.submit-btn {
+    background-color: #3f66d1;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 18px;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #68338b;
+}
+
+.background-image {
+  background-image: url('Illustrations/Image5.png'); /* replace with your image URL */
+  background-size: cover; 
+  background-position: center;
+  height: 80%; 
+  width: 100%;
+  opacity: 0.6;
+  position: relative;
+}
+
+img {
+    width: 30%; 
+    height: auto;
+    margin-left: 20px;
+    float: right;
+    margin: 20px;  
+    position: fixed;
+    right: 20px; 
+    top: 50%;
+    transform: translateY(-50%);
+}
